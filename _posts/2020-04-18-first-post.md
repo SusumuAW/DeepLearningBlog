@@ -4,9 +4,9 @@ There are several points that I want to mention because I had a hard time to set
 
 ---
 import sys
-sys.path.append('/home/susumu/Dropbox/Linux/DeepLearning/fastai_DL/fastbook/')
-sys.path.append('/home/susumu/Dropbox/Linux/DeepLearning/fastai2/')
-sys.path.append('/home/susumu/Dropbox/Linux/DeepLearning/fastcore/')
+sys.path.append('*pass_to*/fastai_DL/fastbook/')
+sys.path.append('*pass_to*/fastai2/')
+sys.path.append('*pass_to*/fastcore/')
 from fastai2 import *
 from fastcore import *
 from utils import *
@@ -24,7 +24,7 @@ from fastai2.vision.widgets import *
 
 ---
 
-Apparently, I need to not only download many Python modules with *"conda install xxx"* or *"pip3 install xxx"*, but also download python files from fastai2 and fastcore from github, just like downloading fastbook from github.
+Apparently, I need to not only download many Python modules with *"conda install xxx"* or *"pip3 install xxx"*, but also download python files from fastai2 and fastcore from github, as you can see that I needed to specify the path to fastai2 and fastcore in my computer directories.
 
 This step could be hard for beginners who do not know, for example, what is github, but I guess there is no other ways but keep trying to learn things. It won't be hard as much as you would imagine but you do need patience just like learning new languages.
 
