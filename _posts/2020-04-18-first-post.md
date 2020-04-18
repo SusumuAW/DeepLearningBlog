@@ -4,22 +4,21 @@ There are several points that I want to mention because I had a hard time to set
 
 ---
 import sys
-sys.path.append('*pass_to*/fastai_DL/fastbook/')
-sys.path.append('*pass_to*/fastai2/')
-sys.path.append('*pass_to*/fastcore/')
-from fastai2 import *
-from fastcore import *
-from utils import *
-from fastai2.vision.widgets import *
-from fastai2.data import *
+sys.path.append('*pass_to*/fastai_DL/fastbook/')  
+sys.path.append('*pass_to*/fastai2/')  
+sys.path.append('*pass_to*/fastcore/')  
+from fastai2 import *  
+from fastcore import *  
+from utils import *  
+from fastai2.vision.widgets import *  
+from fastai2.data import *  
 
 ---
 
 Please note that in the original fastbook, the first cell is;
 
 ---
-from utils import *
-
+from utils import *  
 from fastai2.vision.widgets import *
 
 ---
