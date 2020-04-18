@@ -2,6 +2,7 @@ I just finished the 02_production section of fastbook and successfully modify th
 
 There are several points that I want to mention because I had a hard time to set up the environment. The fastbook recommended to use one of the online services with free GPU times. I tested PaperSpace Gradient. This was very handy because fastai environment is already set up and ready to use. However, I decided to use my workstation, in which I just installed Nvidia 2080ti. Then, the fastbook notebook doesn't run at the first cell because of many missing modules. After many tries and errors, I finally got it working with the following import statements;
 
+---
 import sys
 sys.path.append('/home/susumu/Dropbox/Linux/DeepLearning/fastai_DL/fastbook/')
 sys.path.append('/home/susumu/Dropbox/Linux/DeepLearning/fastai2/')
@@ -12,10 +13,16 @@ from utils import *
 from fastai2.vision.widgets import *
 from fastai2.data import *
 
+---
+
 Please note that in the original fastbook, the first cell is;
 
+---
 from utils import *
+
 from fastai2.vision.widgets import *
+
+---
 
 Apparently, I need to not only download many Python modules with *"conda install xxx"* or *"pip3 install xxx"*, but also download python files from fastai2 and fastcore from github, just like downloading fastbook from github.
 
