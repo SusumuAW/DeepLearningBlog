@@ -7,14 +7,27 @@ author:
   email: "smoriw@gmail.com"
 
 # Build settings
-baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: "/jekyll-multilingual" # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
-
+title:
+  en: Dr. Mori's diary to learn deep learning
+  jp: 森先生の深層学習日記
+email: smoriw@gmail.com
+description:
+  en: This is a record of how Dr. Mori, who has a poor background in math and computer science, challenged deep learning
+  jp: 算数とコンピューター科学初心者の森先生が深層学習にチャレンジする記録です。
+index:
+  en:
+  jp: accueil.html
+feed:
+  en: /feed.xml
+  jp: /flux.xml
+  
 # Default values
 defaults:
   -
